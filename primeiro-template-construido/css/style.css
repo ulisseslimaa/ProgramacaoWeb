@@ -1,0 +1,39 @@
+body{
+    margin: 0 auto;
+}
+
+img{
+    max-width: 100%;
+}
+.conteudo{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.perfil{
+    height: 850px;
+    box-shadow: 4px 10px 18px #ccc;
+}
+
+.foto h1{
+    position: absolute;
+    bottom: 0;
+}
+
+.experiencia{
+    margin-bottom: 20px;
+}
+
+.experiencia, .formacao{
+    height: 400px;
+    box-shadow: 4px 10px 18px #ccc;
+}
+
+.perfil{
+    width: 33.33%;
+}
+
+.curriculo{
+    width: 65.66%;
+}
