@@ -1,39 +1,161 @@
-body{
-    margin: 0 auto;
+@font-face{
+    font-family: Fontastique;
+    src: url(fontastique.ttf);
 }
 
-img{
+body {
+    margin: 0 auto;
+    font-family: 'Fontastique', sans-serif;
+    background-color: #f1f1f1;
+    font-size: 15px;
+    line-height: 1.5;
+
+}
+
+img {
     max-width: 100%;
 }
-.conteudo{
+ 
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+
+p, h3{
+    color: #757575;
+    margin: 15px 0px;
+}
+
+h1{
+    padding: 10px;
+}
+
+i{
+    margin: 0 16px 0 0;
+
+}
+
+.verde{
+    color: #009688;
+}
+
+.conteudo {
     padding: 10px;
     display: flex;
     justify-content: space-between;
+    max-width: 1400px;
 }
 
-.perfil{
-    height: 850px;
+.perfil, .experiencia, .formacao{
+    background-color: #fff;
+}
+
+.perfil {
+    height: 1150px;
     box-shadow: 4px 10px 18px #ccc;
 }
 
-.foto h1{
-    position: absolute;
-    bottom: 0;
+.foto_perfil {
+    position: relative;
 }
 
-.experiencia{
+.foto_perfil h1 {
+    position: absolute; bottom: 0; left: 0;
+}
+
+.descricao_perfil{
+    padding: 10px;
+
+}
+
+.experiencia {
     margin-bottom: 20px;
 }
 
-.experiencia, .formacao{
+.experiencia, .formacao {
     height: 400px;
     box-shadow: 4px 10px 18px #ccc;
 }
 
-.perfil{
+.perfil {
     width: 33.33%;
 }
 
-.curriculo{
+.curriculo {
     width: 65.66%;
+}
+
+.progresso{
+    background-color: #009688;
+    border-radius: 15px;
+    text-align: center;
+    color: #fff;
+}
+
+.skill_javascript, .skill_python, .skill_nodejs, .skill_prog_mobile{
+    background-color: #eee;
+    border-radius: 15px;
+}
+
+.skill_javascript .progresso{
+    width: 90%;
+}
+
+.skill_python .progresso{
+    width: 50%
+}
+
+.skill_nodejs .progresso{
+    width: 75%;
+}
+
+.skill_prog_mobile .progresso{
+    width: 100%;
+}
+
+.language_ingles, .language_espanhol, .language_fraces{
+    background-color: #eee;
+    border-radius: 15px;
+}
+
+.language_ingles .progresso{
+    width: 80%;
+}
+
+.language_espanhol .progresso{
+    width: 40%;
+}
+
+.language_fraces .progresso{
+    width: 15%; 
+}
+
+.language_ingles .progresso, .language_espanhol .progresso, .language_fraces .progresso{
+    color: rgb(0, 0, 0, 0);
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #009688;
+    margin-top: 16px;
+    text-align: center;
+    padding: 0.01em 16px;
+}
+
+a, .whitetext{
+    color: #fff;
+}
+
+.whitetext{
+    font-size: 17px;
+
 }
