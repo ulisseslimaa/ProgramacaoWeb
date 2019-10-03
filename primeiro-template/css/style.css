@@ -5,7 +5,6 @@
 
 body {
     margin: 0 auto;
-    /* font-family: 'Fontastique', sans-serif; */
     font-family: "Roboto", sans-serif;
     background-color: #f1f1f1;
     font-size: 15px;
@@ -23,15 +22,14 @@ hr {
     margin: 20px 0;
 }
 
-p,
-h3,
-h2 {
+p, h3, h2 {
     color: #757575;
     margin: 15px 0px;
 }
 
 h1 {
     padding: 10px;
+    font-family: 'Fontastique', sans-serif;
 }
 
 i {
@@ -53,15 +51,12 @@ i {
     max-width: 1400px;
 }
 
-.perfil,
-.experiencia,
-.formacao {
+.perfil, .experiencia, .formacao {
     background-color: #fff;
 }
 
 .perfil {
     height: 1070px;
-    /* box-shadow: 4px 10px 18px #ccc; */
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
@@ -87,7 +82,6 @@ i {
 
 .experiencia {
     height: 590px;
-    /* box-shadow: 4px 10px 18px #ccc; */
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -110,10 +104,7 @@ i {
     color: #fff;
 }
 
-.skill_javascript,
-.skill_python,
-.skill_nodejs,
-.skill_prog_mobile {
+.skill_javascript, .skill_python, .skill_nodejs, .skill_prog_mobile {
     background-color: #eee;
     border-radius: 15px;
 }
@@ -134,9 +125,7 @@ i {
     width: 100%;
 }
 
-.language_ingles,
-.language_espanhol,
-.language_fraces {
+.language_ingles, .language_espanhol, .language_fraces {
     background-color: #eee;
     border-radius: 15px;
 }
@@ -157,14 +146,11 @@ i {
     width: 15%;
 }
 
-.language_ingles .progresso,
-.language_espanhol .progresso,
-.language_fraces .progresso {
+.language_ingles .progresso, .language_espanhol .progresso, .language_fraces .progresso {
     color: rgb(0, 0, 0, 0);
 }
 
-.experiencia_1,
-.experiencia_2 {
+.experiencia_1, .experiencia_2 {
     padding: 10px 0px;
     margin-left: 16px;
 }
@@ -196,12 +182,10 @@ footer {
     padding: 0.01em 16px;
 }
 
-a,
-.whitetext {
+a, .whitetext {
     color: #fff;
 }
 
 .whitetext {
     font-size: 17px;
-
 }
