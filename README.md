@@ -1,3 +1,4 @@
 [Primeira página Web usando HTML e CSS](http://primeira-pagina-web.surge.sh/)<br>
-[Meu Portfólio usando HTML e CSS](http://portfolio-ulisses.surge.sh/)
-
+[Meu Portfólio usando HTML e CSS](http://portfolio-ulisses.surge.sh/)<br>
+[Exemplo de Layout Fixo](http://layout-fluido.surge.sh/)<br>
+[Exemplo de Layout Fluído](http://layout-fluido.surge.sh/)
