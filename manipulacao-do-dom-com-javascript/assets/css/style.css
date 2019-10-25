@@ -1,0 +1,18 @@
+/* html,body {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    width: 100%;
+
+} */
+
+a:link {
+    text-decoration: none;
+}
+
+#urso-img {
+    position: fixed;
+    width: 80px;
+}
