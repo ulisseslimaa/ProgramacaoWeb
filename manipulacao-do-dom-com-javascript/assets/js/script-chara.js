@@ -1,8 +1,8 @@
 const larguraDaTela = window.screen.availWidth;
-var position = 0;
-var aumentar = true;
+let position = 0;
+let aumentar = true;
 
-var animacaoFrame = 0;
+let animacaoFrame = 0;
 
 const animacaoUrso = [
 	'../assets/images/chara-1.png',
@@ -10,19 +10,17 @@ const animacaoUrso = [
 	'../assets/images/chara-3.png',
 ];
 
-setInterval(function () {
+setInterval( () => {
 
 	if (position > (larguraDaTela + 200)) {
 		return false;
 	}
 	document.getElementById("urso-img").src = animacaoUrso[animacaoFrame];
-
 	document.getElementById("urso-img").style = "left: " + position + "px;";
-
-	position += 6;
-
+	position += 2;
 	animacaoFrame++;
 	if (animacaoFrame > 2) {
 		animacaoFrame = 0;
 	}
-}, 200);
+	if (window.screen.availWidth < position) position = 0;
+}, 100);

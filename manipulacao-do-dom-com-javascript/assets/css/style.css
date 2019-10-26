@@ -7,6 +7,9 @@ body {
     width: 100%;
 
 } */
+body {
+    margin: 0 auto;
+}
 
 a:link {
     text-decoration: none;
@@ -14,5 +17,9 @@ a:link {
 
 #urso-img {
     position: fixed;
-    width: 80px;
+    width: 70px;
+}
+
+.tabela-dinamica{
+    align-content: center;
 }
